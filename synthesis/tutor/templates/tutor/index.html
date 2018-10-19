@@ -1,0 +1,15 @@
+{% if posts_all %}
+
+    <ul>
+    {% for post in posts_all %}
+        <li>
+            <a href="/tutor/{{ post.id }}/">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+{% else %}
+
+    <p>No tutorials</p>
+
+{% endif %}
