@@ -8,3 +8,4 @@ db.sqlite3
 docs/
 static/
 tutor/templates/tutor/
+tree.txt
